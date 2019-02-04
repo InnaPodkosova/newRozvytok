@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+@font-face {
+  font-family: GeometriaBold;
+  src: url(fonts/Geometria-Bold.otf);
+}
+@font-face {
+  font-family: FuturalBold;
+  src: url(fonts/futura-bold.otf);
+}
+@font-face {
+  font-family: FuturaBookReg;
+  src: url(fonts/futurabookc.otf);
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: url("assets/images/bg-main.svg") no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+p{
+  font-size: 16px;
+  font-family: FuturaBookReg;
+}

@@ -1,0 +1,200 @@
+.events_caption h2{
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #292b2c;
+  margin: 40px 0;
+}
+h3{
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 1.2rem;
+}
+h4{
+  text-transform: uppercase;
+}
+.events_wrap{
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 15px;
+  background: #FFF;
+  border: 6px solid #FFD06C;
+}
+
+
+
+.price-event{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrap_event-price {
+  width: 47%;
+  border-style: dashed;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 12px;
+  p{
+    font-size: 17px;
+    font-family: FuturaBookReg;
+  }
+}
+.event_price {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.event_price h4 {
+  font-size: 17px;
+  margin: 0 10px 30px 10px;
+}
+.event_price span {
+  font-weight: normal;
+}
+
+.cetering_block h5 {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+.cetering_block p{
+  text-align: center;
+  font-size: 19px;
+}
+.catering_price{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.price-card{
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  border-style: dashed;
+  border-color: #FFD06C;
+  padding: 10px;
+}
+.price-card h6{
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.price-card p{
+  font-size: 17px;
+  text-align: justify;
+}
+.price-card h3{
+  font-size: 1.3rem;
+}
+.advent-block img{
+  height: 75px;
+}
+.new_comfort{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.comfort_block{
+  width: 30%;
+  margin: 35px 0 50px;
+}
+.comfort h6{
+  text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 992px) {
+  .events_caption h2{
+    font-size: 2rem;
+  }
+
+  .wrap_event-price {
+    width: 100%;
+    border-style: dashed;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .event_price h6 {
+    margin: 0 10px 10px 10px;
+  }
+  .event_price h4 {
+    font-size: 19px;
+    margin: 0 10px 15px 10px;
+  }
+  .price-event{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .wrap_event-price{
+    width: 100%;
+    border-style: dashed;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .event_price h6{
+    margin: 0 10px 10px 10px;
+  }
+  .price-card{
+    width: 47%;
+    margin-bottom: 15px;
+  }
+  .comfort_block{
+    width: 30%;
+    margin: 30px 0 40px;
+  }
+  .comfort h6{
+    font-size: 16px;
+  }
+  .advent-block img{
+    height: 65px;
+  }
+  .map-plan{
+    margin-top: 40px;
+  }
+
+
+}
+
+
+@media (max-width: 560px){
+  .events_caption h2{
+    font-size: 1.5rem;
+  }
+  .pr_weekdays ul{
+    flex-wrap: wrap;
+    li{
+      padding: 0 15px;
+    }
+  }
+  .price-card{
+    width: 100%;
+  }
+  .cow_comfort_block{
+    img{
+      height: 40px;
+    }
+    h4{
+      font-size: .7rem;
+      margin-top: .7rem;
+    }
+  }
+
+}

@@ -1,0 +1,314 @@
+.svg-clip {
+  width: 0;
+  height: 0;
+}
+.header-top {
+  z-index: 10;
+  padding-top: 120px;
+  margin-top: -120px;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: block;
+  height: 111vh;
+  background: #000000 url("../../../assets/images/header-bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* lets clip it*/
+  -webkit-clip-path: url(#hero-clip);
+  clip-path: url(#hero-clip);
+
+  #pointer {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 23px;
+  }
+}
+.header-txt{
+  padding: 23vh 0;
+}
+.caption{
+  color: #fff;
+  text-transform: uppercase;
+  h1 {
+    font-family: GeometriaBold;
+    font-size: 60pt;
+  }
+}
+ .description{
+    .description-text{
+      color: #fff;
+      p {
+        font-size: 17pt;
+      }
+    }
+  .btn.btn-secondary {
+    font-weight: 700;
+    border-radius: 0;
+    background: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 3px solid white;
+    color: white;
+    &:hover{
+      color: #292b2c;
+      background-color: #fff;
+    }
+  }
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+.svg-clip {
+  width: 0;
+  height: 0;
+}
+.background-image-div {
+  width: 100%;
+  display: block;
+  height: 90vh;
+  background: #000000 url('https://images.unsplash.com/photo-1447678523326-1360892abab8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f2c48f62e3ccbc0948518b2188118f95') no-repeat center center;
+  background-size: cover;
+
+  /* lets clip it*/
+  -webkit-clip-path: url(#hero-clip);
+  clip-path: url(#hero-clip);
+}
+.svg_background{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.indentation{
+  padding-top: 50px;
+}
+.indentation-content{
+  padding-top: 60px;
+}
+.topic-wrap div{
+  display: inline-block;
+  width: 207px;
+  height: 47px;
+  margin: 10px;
+  padding-top: 20px;
+  background:#ffd06c;
+}
+.topic-wrap h2{
+  width: 207px;
+  height: 47px;
+  margin: -10px;
+  text-align: center;
+  border: 3px dashed black;
+  text-transform: uppercase;
+  font-size: 18pt;
+  z-index: 1;
+  padding: 7px 30px;
+  font-weight: 600;
+}
+.info-txt{
+  font-size: 18px;
+  margin: 20px 0 15px;
+}
+.btn.btn-secondary{
+  font-weight: 700;
+  border-radius: 0px;
+  background:none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border:3px solid white;
+  color: white;
+}
+ .btn.btn-secondary {
+   border-color: black;
+   color: black;
+ }
+.btn.btn-secondary:hover{
+  background: black;
+  color: white;
+}
+.wrap-block {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.wrap-img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 300px;
+  overflow: hidden;
+  background-size: 160%;
+  background-repeat: no-repeat;
+}
+.hp-events{
+  background-image: url("../../../assets/images/ivent3.jpg");
+}
+.hp-courses{
+  background-image: url("../../../assets/images/hp-courses.JPG");
+}
+.hp-coworking{
+  background-image: url("../../../assets/images/hp-coworking.jpg");
+}
+.wrap-svg{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+}
+.svg-events{
+  background-image: url("../../../assets/images/hp-event-zona.svg");
+  right: 0;
+}
+.svg-course{
+    background-image: url("../../../assets/images/hp-courses.svg");
+  left: 0;
+}
+.svg-coworking{
+  background-image: url("../../../assets/images/hp-covorking.svg");
+  right: 0;
+}
+.floor-plan,
+.gallery-block{
+  display: block;
+  margin: 30px 0px;
+  background: rgba(255, 208, 108, 0.5);
+  h2{
+    border: dashed;
+    padding: 5px 0 5px;
+    margin: 50px 0 50px;
+    text-transform: uppercase;
+    color: #292b2c;
+    text-align: center;
+  }
+}
+.img-adaptive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 998px) {
+  h2{
+    font-size: 1.8rem;
+  }
+  .caption h1{
+      font-size: 8vw;
+  }
+  .courses-block-top{
+    order: -1;
+  }
+  .indentation{
+    padding-top: 0;
+  }
+
+  .indentation-content{
+    padding-top: 0;
+  }
+
+}
+@media (max-width: 768px) {
+  h2{
+    font-size: 1.6rem;
+  }
+  .caption h1{
+    font-size: 10vw;
+  }
+  .description {
+    .description-text {
+      p {
+        font-size: 15pt;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 560px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+  .caption h1 {
+    font-size: 12vw;
+  }
+  .header-txt {
+    padding: 25vh 0;
+  }
+  #pointer {
+    display: none;
+  }
+  .wrap-block {
+    width: 250px;
+    height: 250px;
+  }
+  .wrap-svg {
+    width: 90px;
+    height: 90px;
+  }
+  .topic-wrap div {
+    display: inline-block;
+    width: 165px;
+  }
+  .topic-wrap h2 {
+    width: 165px;
+    font-size: 14pt;
+  }
+  .btn.btn-secondary {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+  }
+
+  @media (max-width: 420px) {
+    .caption h1 {
+      font-size: 13vw;
+    }
+    .header-txt {
+      padding: 34vh 0;
+    }
+    .description-text p {
+      display: none;
+    }
+    .description-text {
+      margin-top: 55px;
+    }
+  }
+}
