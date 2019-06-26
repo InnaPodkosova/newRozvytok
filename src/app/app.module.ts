@@ -10,6 +10,7 @@ import { CoursespageComponent } from './components/coursespage/coursespage.compo
 
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { Routes, RouterModule } from '@angular/router';
 import { EventspageComponent } from './components/eventspage/eventspage.component';
@@ -44,12 +45,13 @@ const appRoutes: Routes = [
     SliderComponent,
     ReactNativeComponent,
     DigitalDsmaxComponent,
-    ArchicadComponent
+    ArchicadComponent,
   ],
   imports: [
     BrowserModule,
     CommonModule,
     FormsModule,
+    ScrollToModule.forRoot(),
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

@@ -9,7 +9,23 @@ import {timer} from 'rxjs';
 })
 
 export class PhotoshopComponent implements OnInit {
-  finishDay = `30/12/2018`;
+  currentImages = [
+    '/assets/images/page_courses/photoshop/portfolio_1.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_2.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_3.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_4.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_5.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_6.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_7.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_8.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_9.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_11.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_12.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_13.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_14.jpg',
+    '/assets/images/page_courses/photoshop/portfolio_15.jpg',
+  ];
+  finishDay = `31/10/2019`;
   startTimer;
   endTimer;
   differenceDate;

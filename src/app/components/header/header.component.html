@@ -1,5 +1,5 @@
 <div class="container" xmlns="">
-  <div class="row">
+  <div class="row my-test" [class.transparent]="isTransparent">
     <div class="col-12 mx-auto header-block">
 
 
@@ -8,14 +8,16 @@
       </div>
 
 
-      <nav class="navbar navbar-expand-md">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar" aria-controls="NavBar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-md my-navbar" [class.transparent]="isTransparent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar" aria-controls="NavBar"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
         <div class="collapse navbar-collapse header-menu" id="NavBar" [class.transparent]="isTransparent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-            <a data-scroll routerLink="/">ГОЛОВНА</a>
+              <a data-scroll routerLink="/">ГОЛОВНА</a>
             </li>
             <li class="nav-item">
               <a data-scroll routerLink="/events">івенти</a>
@@ -27,13 +29,11 @@
               <a data-scroll routerLink="/coworking" class="colorMy">коворкінг</a>
             </li>
             <li class="nav-item">
-              <a >контакти</a>
+              <a data-scroll (click)="myFooterScroll()" class="scrollfooter">контакти</a>
             </li>
           </ul>
         </div>
       </nav>
-
-
 
     </div>
   </div>

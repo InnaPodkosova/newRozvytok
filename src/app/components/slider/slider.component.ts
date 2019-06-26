@@ -19,6 +19,8 @@ export class SliderComponent implements OnInit, AfterContentInit {
       $('.owl-carousel').owlCarousel({
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
+        autoHeight : false,
+        autoHeightClass: 'owl-height',
         autoPlay : false,
         slideSpeed : 200,
 
@@ -40,10 +42,9 @@ export class SliderComponent implements OnInit, AfterContentInit {
           1000: {
             items: 3,
             nav: false,
-            loop: false
+            loop: false,
           }
         },
-        autoHeight : false,
         smartSpeed: 450,
         dots: true,
 

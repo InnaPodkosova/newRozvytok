@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ArchicadComponent implements OnInit {
-  finishDay = `11/02/2019`;
+  currentImages = [
+    '/assets/images/page_courses/archicad/portfolio_1.jpg',
+    '/assets/images/page_courses/archicad/portfolio_2.jpg',
+    '/assets/images/page_courses/archicad/portfolio_3.jpg',
+    '/assets/images/page_courses/archicad/portfolio_4.jpg',
+    '/assets/images/page_courses/archicad/portfolio_5.jpg',
+    '/assets/images/page_courses/archicad/portfolio_6.jpg',
+    '/assets/images/page_courses/archicad/portfolio_7.jpg',
+  ];
+  finishDay = `31/10/2019`;
   startTimer;
   endTimer;
   differenceDate;
