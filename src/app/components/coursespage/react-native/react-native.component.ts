@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ReactNativeComponent implements OnInit {
-  finishDay = `12/03/2019`;
+  finishDay = `31/10/2019`;
   startTimer;
   endTimer;
   differenceDate;

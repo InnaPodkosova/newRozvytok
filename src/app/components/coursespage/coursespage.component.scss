@@ -1,13 +1,13 @@
-
+.courses_wrap{
+  margin-top: -30px;
+}
 .courses_wrap h2{
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2.5rem;
   color: #292b2c;
   margin: 40px 0;
-
 }
-
 .item-courses-new {
   color: white;
   border: none;
@@ -133,4 +133,14 @@
 }
 .item-courses-new h6{
   font-weight: 500;
+}
+@media (max-width: 767px) {
+  .courses_wrap h2{
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 576px) {
+  .courses_wrap h2{
+    font-size: 1.8rem;
+  }
 }

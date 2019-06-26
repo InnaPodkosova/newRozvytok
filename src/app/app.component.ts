@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   transparent = false;
   constructor(
    private activatedRoute: ActivatedRoute,
-   private router: Router
+   private router: Router,
 ) {}
   ngOnInit() {
     console.log(this.activatedRoute);

@@ -17,7 +17,7 @@ export class DigitalDsmaxComponent implements OnInit {
     '/assets/images/page_courses/3DsMax/portfolio_6.jpg',
     '/assets/images/page_courses/3DsMax/portfolio_7.jpg',
   ];
-  finishDay = `04/02/2019`;
+  finishDay = `31/10/2019`;
   startTimer;
   endTimer;
   differenceDate;
